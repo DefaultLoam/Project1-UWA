@@ -6,8 +6,9 @@ The files in this repository were used to configure the network depicted below.
 
 (Images/VirtualNetwork_Diagram.png)
 
-These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the _____ file may be used to install only certain pieces of it, such as Filebeat.
+These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the ElkDocker file may be used to install only certain pieces of it, such as Filebeat.
 
+To start the elk server, run ansible-playbook and the file bellow.
   - Enter the playbook file. - ElkDocker.yml
 
 This document contains the following details:
@@ -99,7 +100,6 @@ SSH into the control node and follow the steps below:
 - _Which file do you update to make Ansible run the playbook on a specific machine? How do I specify which machine to install the ELK server on versus which to install Filebeat on? You update the auditbeat-playbook.yml, change the hosts option from webservers to the IP of the VM that you want to download it too, for example I'll be using 10.0.0.6
 - _Which URL do you navigate to in order to check that the ELK server is running? http://40.118.185.16:5601/app/kibana#/home/tutorial/auditbeat (When restarting the machines, the IP address will change)
 
-_As a **Bonus**, provide the specific commands the user will need to run to download the playbook, update the files, etc._
 - To run the playbooks
 -	ansible-playbook filebeat-playbook.yml
 -	ansible-playbook metricbeat-playbook.yml
