@@ -1,0 +1,19 @@
+#!/bin/bash
+
+# list of my 5 favourite US states
+States=(
+ 'Florida'
+ 'Alaska'
+ 'Louisiana'
+ 'Illinois'
+ 'Michigan'
+)
+
+# Print out Hawaii
+for States in ${States[@]};
+do
+ if [ $States != 'Hawaii' ]
+ then
+ echo "I'm not fond of Hawaii."
+fi
+done

@@ -1,0 +1,4 @@
+#!/bin/bash
+
+lynis audit --test-from-group malware,authentication,networking,storage,filesystems >> /tmp/lynis.system_partial.log
+
