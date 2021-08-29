@@ -4,7 +4,9 @@ My first project for uni
 
 The files in this repository were used to configure the network depicted below.
 
-(Images/VirtualNetwork_Diagram.png)
+(Diagrams/(Liam Pickering) Unit 12 Homework.png) This is the virtual network diagram
+
+(Images/
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the ElkDocker file may be used to install only certain pieces of it, such as Filebeat.
 
