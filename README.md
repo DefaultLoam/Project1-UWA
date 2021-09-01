@@ -8,6 +8,14 @@ The files in this repository were used to configure the network depicted below.
 
 (All_Images_for_project.pdf) The images showing data being push into the ELK server
 
+(Playbooks/ElkDocker.yml) This is the playbook for setting up the ELK server
+
+(Playbooks/filebeat-playbook.yml) This is the playbook for setting up filebeat on the webVM's
+
+(Playbooks/heartbeat-playbook.yml) This is the playbook for setting up heartbeat on the webVM's
+
+(Playbooks/metricbeat-playbook.yml) This is the playbook for setting up metricbeat on the webVM's
+
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the ElkDocker file may be used to install only certain pieces of it, such as Filebeat.
 
 To start the elk server, run ansible-playbook and the file bellow.
